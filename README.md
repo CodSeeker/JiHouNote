@@ -1,30 +1,46 @@
-# 积厚文本管理工具 (JiHouNote)
+# JiHouNote - 积厚文本管理工具
+
+JiHouNote是一款简洁高效的文本管理工具，专为知识积累和笔记管理而设计。支持Markdown格式，提供文件管理、搜索等功能，帮助您更好地组织和管理您的知识库。
 
 ![积厚文本管理工具](resources/screenshot.png)
 
-## 项目介绍
+## 主要功能
 
-积厚文本管理工具(JiHouNote)是一个基于Python和PyQt5开发的轻量级知识管理工具，专为个人知识整理和管理而设计。它支持Markdown格式，提供了文件管理、全文搜索等功能，帮助用户高效地组织和检索知识内容。
+- **文件管理**：直观的文件树结构，轻松管理文档
+- **Markdown支持**：内置Markdown编辑器，支持实时预览
+- **搜索功能**：快速查找文档内容
+- **自定义数据目录**：灵活设置数据存储位置
+- **导入导出**：支持多种格式的文件导入导出
 
-## 功能特点
+## 安装使用
 
-- **文件管理**：创建、编辑、删除和组织知识库文件和文件夹
-- **Markdown支持**：内置Markdown编辑器，支持语法高亮
-- **全文搜索**：在所有知识库文件中搜索内容
-- **自定义数据目录**：可自由设置知识库数据的存储位置
-- **导入导出**：支持导入外部文件和导出为多种格式
+1. 下载最新版本的JiHouNote.exe
+2. 双击运行，无需安装
+3. 默认数据保存在"我的文档/JiHou"目录下，可在设置中修改
 
-## 安装说明
+## 快捷键
 
-### 方法一：直接下载可执行文件
+- `Ctrl+S`：保存当前文件
 
-1. 在[Releases](https://github.com/CodSeeker/JiHouNote/releases)页面下载最新版本的`JiHouNote.exe`
-2. 双击运行即可，无需安装Python环境
+## 系统要求
 
-### 方法二：从源码运行
+- Windows 7/8/10/11
+- 无需额外依赖
 
-1. 确保已安装Python 3.6或更高版本
-2. 克隆仓库到本地：
-   ```bash
-   git clone https://github.com/CodSeeker/JiHouNote.git
-   cd JiHouNote
+## 开发者信息
+
+本项目使用Python和PyQt5开发。如需从源码构建：
+
+1. 克隆仓库
+2. 安装依赖：`pip install -r requirements.txt`
+3. 运行：`python src/main.py`
+4. 打包：`python build_exe.py`（Windows）或 `python build_mac.py`（Mac）
+
+## 鸣谢
+
+- **Trae AI**：提供技术支持和代码优化建议
+- **Iconfont**：提供图标资源
+- **PyQt5**：提供强大的GUI框架
+- **Python**：提供编程语言支持
+- **Markdown**：提供文档格式支持
+- **PyInstaller**：提供应用打包支持
